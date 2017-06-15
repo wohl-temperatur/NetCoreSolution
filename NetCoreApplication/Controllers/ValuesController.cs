@@ -14,10 +14,14 @@ namespace NetCoreApplication.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            return Startup.Configuration["ASPNETCORE_ENVIRONMENT"];
         }
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
         // GET api/values/5
         [HttpGet("{id}")]
