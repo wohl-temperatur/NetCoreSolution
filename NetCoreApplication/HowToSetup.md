@@ -1,7 +1,7 @@
 ﻿# 設定ファイル
 ## パッケージ管理ツール
 ツール | 目的 | 設定ファイル
-- | - | 
+ - | - | 
 NuGet | サーバ用ツール/ライブラリ | project.json
 NPM | クライアント用ツール | package.json
 Bower | クライアント用ライブラリ | bower.json
